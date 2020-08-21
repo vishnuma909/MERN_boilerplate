@@ -1,0 +1,263 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.floatingBtn {
+  position: fixed;
+  right: 50px;
+  bottom: 30px;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0,0,0,.12) !important;
+  border-radius: 50px;
+  z-index: 999;
+  height: 50px;
+  width: 50px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.pageContainer {
+  margin-top: 10px;
+}
+
+.tocenter {
+  text-align: center;
+}
+
+.regbtn {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  margin: 0px !important;
+}
+
+.card label {
+  margin-left: 5px !important;
+  text-transform: capitalize !important;
+}
+
+.card {
+  box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12)
+}
+
+.dop_back {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 4%, rgba(253,29,29,1) 75%, rgba(252,176,69,1) 100%);
+  height: 55px;
+  display: inline-block;
+  width: 55px;
+  border-radius: 50px;
+}
+
+.dop {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50px;
+  position: relative;
+  left: 2.5px;
+  top: 2.3px;
+}
+
+.dim {
+  background: white !important;
+  color: black !important;
+}
+
+.del {
+  float: right;
+  font-size: larger;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.sticky-card {
+  position: sticky !important;
+  top: 8% !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .sticky-card {
+    display: none;
+  }
+  .mediaquerytop {
+    margin-top: 50px;
+  }
+  .logout {
+    position: relative !important;
+  }
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}
+
+.card-text {
+  white-space: pre-line !important;
+}
+
+.card_titles {
+  display: inline-grid;
+  vertical-align: super;
+  margin-left: 10px;
+}
+
+.card_titles div {
+  text-transform: capitalize;
+}
+
+.prewrapper {
+  white-space: pre-wrap;
+}
+
+.reader {
+  border: 1px solid;
+  padding: 15px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top: 0px;
+  width: 100%;
+}
+
+.readerheading {
+  width: 100%;
+  border: 1px solid;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding: 10px;
+  border-bottom: 0px;
+}
+
+.heartContainer {
+  background: white;
+  border: white;
+  float: right;
+  border-radius: 50px;
+}
+.hearty {
+  color: red;
+}
+.tooltip-inner {
+  text-transform: capitalize !important;
+  white-space: pre-line !important;
+}
+
+.modalBody {
+  max-height: 500px;
+  min-height: auto;
+  overflow-y: auto;
+}
+
+.modalBody #modalImg {
+  border-radius: 50px;
+}
+
+.modalBody #modalName {
+  margin-left: 5px;
+}
+
+.modalBody #modalViewBtn {
+  float: right;
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+}
+
+.user_articles_head {
+  border: 1px solid #343a40;
+  border-radius: 5px;
+  padding: 5px;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/*dropdown*/
+.navbar-nav .dropdown-menu {
+  right: 0px !important;
+  left: auto !important;
+}
+.privacydd {
+  float: right;
+}
+.privacydd button {
+  height: 25px !important;
+  width: 70px !important;
+  font-size: 10px !important;
+  padding: 5px !important;
+}
+.viewperson {
+  display: flex;
+  justify-content: center;
+  background: radial-gradient(gray, transparent);
+}
+#personimage {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+.imgSet img {
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+}
+.imgSet #imgDel {
+  position: absolute;
+  font-size: larger;
+  cursor: pointer;
+}
+
+/*toast css*/
+.toast {
+  position: fixed !important;
+  left: 10px !important;
+  top: calc(15% + 2%) !important;
+}
+.toast .toast-header {
+  background: #f15252 !important;
+  color: black !important;
+}
+.toast button.close {
+  position: absolute;
+  right: 20px;
+}
+
+.hideContent {
+  opacity: 0.3;
+}
+
+.personHighlight {
+  cursor: pointer;
+}
+.personHighlight:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
